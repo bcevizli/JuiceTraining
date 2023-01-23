@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		EA62D893296EF95700D34850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62D892296EF95700D34850 /* AppDelegate.swift */; };
 		EA62D895296EF95700D34850 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62D894296EF95700D34850 /* SceneDelegate.swift */; };
-		EA62D897296EF95700D34850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62D896296EF95700D34850 /* ViewController.swift */; };
 		EA62D89A296EF95700D34850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA62D898296EF95700D34850 /* Main.storyboard */; };
 		EA62D89C296EF95800D34850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA62D89B296EF95800D34850 /* Assets.xcassets */; };
 		EA62D89F296EF95800D34850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA62D89D296EF95800D34850 /* LaunchScreen.storyboard */; };
+		EA62D8A7296EF9B300D34850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA62D8A6296EF9B300D34850 /* GoogleService-Info.plist */; };
+		EA62D8AF2970158B00D34850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62D8AE2970158B00D34850 /* ViewController.swift */; };
+		EA62D8B12971411A00D34850 /* BenimSayfam.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62D8B02971411A00D34850 /* BenimSayfam.swift */; };
+		EA74DA40297F0CD400923295 /* ProgramlarimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74DA3F297F0CD400923295 /* ProgramlarimViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA62D88F296EF95700D34850 /* juicetraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juicetraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA62D892296EF95700D34850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA62D894296EF95700D34850 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA62D896296EF95700D34850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA62D899296EF95700D34850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA62D89B296EF95800D34850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA62D89E296EF95800D34850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA62D8A0296EF95800D34850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA62D8A6296EF9B300D34850 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA62D8AE2970158B00D34850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA62D8B02971411A00D34850 /* BenimSayfam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenimSayfam.swift; sourceTree = "<group>"; };
+		EA74DA3F297F0CD400923295 /* ProgramlarimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramlarimViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,72 @@
 			children = (
 				EA62D892296EF95700D34850 /* AppDelegate.swift */,
 				EA62D894296EF95700D34850 /* SceneDelegate.swift */,
-				EA62D896296EF95700D34850 /* ViewController.swift */,
 				EA62D898296EF95700D34850 /* Main.storyboard */,
+				EA74DA36297E92C900923295 /* AnaSayfaFolder */,
+				EA74DA35297E92B000923295 /* BenimSayfamFolder */,
+				EA74DA38297E930100923295 /* ProgramlarımFolder */,
+				EA74DA39297E931B00923295 /* DegisimTakibiFolder */,
+				EA74DA3A297E933E00923295 /* AgirlikTakibiFolder */,
+				EA74DA3C297E936D00923295 /* KisiselBilgilerFolder */,
+				EA74DA3B297E935D00923295 /* NotlarimFolder */,
 				EA62D89B296EF95800D34850 /* Assets.xcassets */,
 				EA62D89D296EF95800D34850 /* LaunchScreen.storyboard */,
 				EA62D8A0296EF95800D34850 /* Info.plist */,
+				EA62D8A6296EF9B300D34850 /* GoogleService-Info.plist */,
 			);
 			path = juicetraining;
+			sourceTree = "<group>";
+		};
+		EA74DA35297E92B000923295 /* BenimSayfamFolder */ = {
+			isa = PBXGroup;
+			children = (
+				EA62D8B02971411A00D34850 /* BenimSayfam.swift */,
+			);
+			path = BenimSayfamFolder;
+			sourceTree = "<group>";
+		};
+		EA74DA36297E92C900923295 /* AnaSayfaFolder */ = {
+			isa = PBXGroup;
+			children = (
+				EA62D8AE2970158B00D34850 /* ViewController.swift */,
+			);
+			path = AnaSayfaFolder;
+			sourceTree = "<group>";
+		};
+		EA74DA38297E930100923295 /* ProgramlarımFolder */ = {
+			isa = PBXGroup;
+			children = (
+				EA74DA3F297F0CD400923295 /* ProgramlarimViewController.swift */,
+			);
+			path = "ProgramlarımFolder";
+			sourceTree = "<group>";
+		};
+		EA74DA39297E931B00923295 /* DegisimTakibiFolder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DegisimTakibiFolder;
+			sourceTree = "<group>";
+		};
+		EA74DA3A297E933E00923295 /* AgirlikTakibiFolder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AgirlikTakibiFolder;
+			sourceTree = "<group>";
+		};
+		EA74DA3B297E935D00923295 /* NotlarimFolder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NotlarimFolder;
+			sourceTree = "<group>";
+		};
+		EA74DA3C297E936D00923295 /* KisiselBilgilerFolder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KisiselBilgilerFolder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA62D89F296EF95800D34850 /* LaunchScreen.storyboard in Resources */,
+				EA62D8A7296EF9B300D34850 /* GoogleService-Info.plist in Resources */,
 				EA62D89C296EF95800D34850 /* Assets.xcassets in Resources */,
 				EA62D89A296EF95700D34850 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +204,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA62D897296EF95700D34850 /* ViewController.swift in Sources */,
+				EA74DA40297F0CD400923295 /* ProgramlarimViewController.swift in Sources */,
+				EA62D8B12971411A00D34850 /* BenimSayfam.swift in Sources */,
+				EA62D8AF2970158B00D34850 /* ViewController.swift in Sources */,
 				EA62D893296EF95700D34850 /* AppDelegate.swift in Sources */,
 				EA62D895296EF95700D34850 /* SceneDelegate.swift in Sources */,
 			);
