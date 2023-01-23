@@ -9,8 +9,6 @@ import UIKit
 
 class BenimSayfam: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    
-    
     @IBOutlet weak var tableView: UITableView!
     
     let benimSayfamList: [String] = ["Programlarım", "Değişim Takibi", "Ağırlık Takibi", "Notlarım", "Kişisel Bilgiler"]
